@@ -57,7 +57,7 @@ calculate = () =>{
     return (
      
       <div className="App">
-       <h1> የሒሳብ መስያ </h1>
+       <h1> የሒሳብ ማስያ </h1>
       <div className="calc-body">
        <Output result={this.state.result} />
        <KeyPad buttonPressed={this.buttonPressed} />
